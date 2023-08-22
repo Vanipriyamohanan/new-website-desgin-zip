@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+/* Existing styles */
+
+.navbar {
+  height: 80px; /* Adjust the height value as needed */
+}
+
+/* Rest of your existing styles */
+.nav-link {
+  font-size: 19px;
+}
+.home-container p {
+  color: white;
+}
+.home-container h1 {
+  padding: 2rem;
+}

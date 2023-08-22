@@ -1,0 +1,47 @@
+
+.contact-details{
+    padding:80px;
+}
+.animated-div{
+    width:100px;
+    height:100px;
+    background-color:transparent;
+    border-radius:50%;
+    border:5px solid black;
+    border-style: dotted;
+    animation: rotate 5s infinite ease-in;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img-img-img{
+    width:80px;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg); /* Start from no rotation */
+    }
+    50% {
+        transform: rotate(360deg); /* Rotate to the right side */
+    }
+    100% {
+        transform: rotate(-360deg); /* Rotate to the right side */
+    }
+}
+.contact-ht-us{
+    color: black;
+    font-size:20px;
+    margin-top:-55px;
+    animation: move 5s infinite ease-in-out;
+}
+@keyframes move {
+    0%{
+       color: transparent;
+    }
+    50%{
+        margin-left:150px;
+    }
+}
+a{
+    color: rgb(43, 46, 50);
+}
